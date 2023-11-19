@@ -6,9 +6,9 @@ $amazing-color: rgb(173, 216, 230);
 @import 'blockquote';
 @import 'code';
 @import 'technology';
-/*
+
 @import '../../shared/fontawesome/scss/fontawesome';
-*/
+
 $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import '../../shared/fontawesome/scss/brands';
@@ -61,6 +61,8 @@ a {
 head {
     background-color: $accent-color;
 }
+
+
 
 .parent {
     display: flex;

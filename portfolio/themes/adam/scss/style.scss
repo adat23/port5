@@ -5,6 +5,7 @@ $amazing-color: rgb(173, 216, 230);
 @import 'variables';
 @import 'blockquote';
 @import 'code';
+@import 'technology';
 
 @import '../../shared/fontawesome/scss/fontawesome';
 
@@ -32,8 +33,14 @@ body {
     
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
     font-family: 'Agbalumo', Agbalumo;
+    font-size: large;
+}
+
+h3 {
+    font-family: 'Agbalumo', Agbalumo;
+    font-size: small;
 }
 
 * {
@@ -54,6 +61,8 @@ a {
 head {
     background-color: $accent-color;
 }
+
+
 
 .parent {
     display: flex;
