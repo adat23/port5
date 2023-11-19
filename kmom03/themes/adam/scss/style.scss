@@ -1,0 +1,86 @@
+$magic-number: 1.5em;
+$amazing-color: rgb(173, 216, 230);
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'blockquote';
+@import 'code';
+@import 'technology';
+/*
+@import '../../shared/fontawesome/scss/fontawesome';
+*/
+$fa-font-path: '../../shared/fontawesome/webfonts';
+
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Open+Sans&family=Roboto&display=swap');
+
+body {
+    background-color: $background-color;
+    width: 900px;
+    padding-left: 20%;
+
+}
+
+* {
+    font-family: 'Roboto' sans-serif;
+    color: $font-color;
+
+    
+}
+
+h1, h2, h4, h5, h6 {
+    font-family: 'Agbalumo', Agbalumo;
+    font-size: large;
+}
+
+h3 {
+    font-family: 'Agbalumo', Agbalumo;
+    font-size: small;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100vh;
+    
+}
+
+a {
+    color: $amazing-color;
+}
+
+head {
+    background-color: $accent-color;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    .child {
+        width: 80%;
+        padding: $magic-number;
+        margin: calc($magic-number / 2);
+        background-color: $amazing-color;
+    }
+
+    .child:first-child {
+        margin-top: 0;
+    }
+
+    .child:last-child {
+        margin-bottom: 0;
+    }
+}
