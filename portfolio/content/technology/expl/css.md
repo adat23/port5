@@ -17,5 +17,6 @@ Cascading Style Sheets är språk för att beskriva utseende av element i ett ma
 I CSS använder vi selektorer för att beskriva vilka element vi vill påverka och deklarerar sedan stilen för elementen i ett block.
 
 
+
 </div>
 </div>

@@ -1,47 +1,24 @@
 /* technology.scss */
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 .landingpage {
     display: grid;
     max-width: auto;
-    /*gap: 0,5em 0,25em;*/
     background-color: $accent-color;
     border: 1px solid black;
-    /*grid-row: 4;*/
-    grid-template-columns: 200px auto;
-    /*margin: 0 auto; */
+    grid-template-columns: 300px auto;
     width: auto;
 
 }
 
 .landingpage div {
     padding: 2em;
-    /*columns: 3;*/
-    width: auto;
-    /*max-width: 960px;*/
-
-
-    /* grid-template-columns: repeat(2, 1fr);*/
 }
 
 
-/*
-.grid {
-    display: grid;
-}
-
-.wrapper {
-    max-width: 960px;
-    margin: 0 auto;
-    grid-template-columns: 200px auto;
-    grid-template-rows: 200px 600px 200px;
-}
-*/
 .landingpage h1 {
     grid-column: span 3;
     justify-self: center;
@@ -88,34 +65,30 @@
     background-color: $background-alternative-color;
 }
 
-.side {
-    display: flex;
-
+.expl {
+    display: grid;
+    grid-template-columns: 200px auto;
 }
 
-.sidebar {
-    display: inline;
+.sidebar div {
+
     float: left;
     grid-column: 1 / span 1;
     width: 100px;
     
 }
 
-.text {
-    width: 600px;
-    /* grid-column: 2 / span 2; */
+.text div {
     
+    grid-column: 2 / span 2; 
+    border: 1px solid black;
 }
 
 
 @media screen and (max-width: 960px) {
     .landingpage {
-
-        max-width: 50%;
-        column-width: 50% screen;
+        max-width: 50%; 
         grid-template-columns: repeat(1, 1fr);
-        padding: 0;
-
     }
 
     .main {
@@ -123,18 +96,13 @@
         max-width: 50%;
     }
 
-    .short_left .short_right .wide_right .wide_left .wide {
+    .short_left, .short_right, .wide_right, .wide_left, .wide {
         column-width: 50%;
         grid-column: 1;
-        /*max-width: 50%;*/
         
     }
     .sidebar {
         display: none;
     }
-    
-    .side {
-        padding: 0;
-        max-width: 50%;
-    }
+
 }
