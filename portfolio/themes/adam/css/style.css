@@ -353,7 +353,7 @@ pre code {
 .landingpage {
   display: grid;
   max-width: auto;
-  background-color: #ee6c4d;
+  background-color: #AA7D39;
   border: 1px solid black;
   grid-template-columns: 300px auto;
   width: auto;
@@ -367,7 +367,7 @@ pre code {
   grid-column: span 3;
   justify-self: center;
   border: 1px solid black;
-  background-color: #3d5a80;
+  background-color: #00412D;
 }
 
 .landingpage h3 {
@@ -377,31 +377,31 @@ pre code {
 .short_left {
   grid-column: 1/span 1;
   border: 1px solid black;
-  background-color: #3d5a80;
+  background-color: #00412D;
 }
 
 .short_right {
   grid-column: 3/span 1;
   border: 1px solid black;
-  background-color: #3d5a80;
+  background-color: #00412D;
 }
 
 .wide_right {
   grid-column: 2/span 2;
   border: 1px solid black;
-  background-color: #3d5a80;
+  background-color: #00412D;
 }
 
 .wide_left {
   grid-column: 1/span 2;
   border: 1px solid black;
-  background-color: #3d5a80;
+  background-color: #00412D;
 }
 
 .wide {
   grid-column: span 3;
   border: 1px solid black;
-  background-color: #3d5a80;
+  background-color: #00412D;
 }
 
 .expl {
@@ -6552,14 +6552,14 @@ readers do not read off random characters that represent icons */
 }
 
 body {
-  background-color: #c9c9c9;
+  background-color: #257059;
   width: 900px;
   padding-left: 20%;
 }
 
 * {
   font-family: "Roboto" sans-serif;
-  color: #292929;
+  color: #270007;
 }
 
 h1, h2, h4, h5, h6 {
@@ -6583,11 +6583,20 @@ body {
 }
 
 a {
-  color: rgb(173, 216, 230);
+  color: #024707;
 }
 
 head {
-  background-color: #ee6c4d;
+  background-color: #AA7D39;
+}
+
+.nav {
+  background-color: #AA7D39;
+}
+
+.main {
+  width: auto;
+  background-color: #FFEAAF;
 }
 
 .parent {
@@ -6601,7 +6610,7 @@ head {
   width: 80%;
   padding: 1.5em;
   margin: 0.75em;
-  background-color: rgb(173, 216, 230);
+  background-color: #024707;
 }
 .parent .child:first-child {
   margin-top: 0;

@@ -19,15 +19,14 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 
 .main {
-    background-color: black;
-    color: aquamarine;
+    width: auto;
+    background-color: $text-backg-dark;
 }
 
 body {
     background-color: $background-dark;
     width: 900px;
     padding-left: 20%;
-
 }
 
 * {
@@ -54,6 +53,20 @@ html,
 body {
     height: 100vh;
     
+}
+
+.nav {
+    background-color: $accent-dark;
+}
+
+
+
+li {
+    color: $font-dark;
+}
+
+link {
+    color: $font-dark;
 }
 
 a {

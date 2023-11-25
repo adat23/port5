@@ -353,7 +353,7 @@ pre code {
 .landingpage {
   display: grid;
   max-width: auto;
-  background-color: #ee6c4d;
+  background-color: #AA7D39;
   border: 1px solid black;
   grid-template-columns: 300px auto;
   width: auto;
@@ -367,7 +367,7 @@ pre code {
   grid-column: span 3;
   justify-self: center;
   border: 1px solid black;
-  background-color: #3d5a80;
+  background-color: #00412D;
 }
 
 .landingpage h3 {
@@ -377,31 +377,31 @@ pre code {
 .short_left {
   grid-column: 1/span 1;
   border: 1px solid black;
-  background-color: #3d5a80;
+  background-color: #00412D;
 }
 
 .short_right {
   grid-column: 3/span 1;
   border: 1px solid black;
-  background-color: #3d5a80;
+  background-color: #00412D;
 }
 
 .wide_right {
   grid-column: 2/span 2;
   border: 1px solid black;
-  background-color: #3d5a80;
+  background-color: #00412D;
 }
 
 .wide_left {
   grid-column: 1/span 2;
   border: 1px solid black;
-  background-color: #3d5a80;
+  background-color: #00412D;
 }
 
 .wide {
   grid-column: span 3;
   border: 1px solid black;
-  background-color: #3d5a80;
+  background-color: #00412D;
 }
 
 .expl {
@@ -6552,19 +6552,19 @@ readers do not read off random characters that represent icons */
 }
 
 .main {
-  background-color: black;
-  color: aquamarine;
+  width: auto;
+  background-color: #756363;
 }
 
 body {
-  background-color: #222222;
+  background-color: #423232;
   width: 900px;
   padding-left: 20%;
 }
 
 * {
   font-family: "Roboto" sans-serif;
-  color: #852323;
+  color: #000000;
 }
 
 h1, h2, h4, h5, h6 {
@@ -6587,12 +6587,24 @@ body {
   height: 100vh;
 }
 
+.nav {
+  background-color: #DB2621;
+}
+
+li {
+  color: #000000;
+}
+
+link {
+  color: #000000;
+}
+
 a {
-  color: #852323;
+  color: #000000;
 }
 
 head {
-  background-color: #ff3300;
+  background-color: #DB2621;
 }
 
 .parent {
@@ -6606,7 +6618,7 @@ head {
   width: 80%;
   padding: 1.5em;
   margin: 0.75em;
-  background-color: rgb(173, 216, 230);
+  background-color: #024707;
 }
 .parent .child:first-child {
   margin-top: 0;
