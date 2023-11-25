@@ -1,0 +1,108 @@
+/* technology.scss */
+
+* {
+    box-sizing: border-box;
+}
+
+.landingpage {
+    display: grid;
+    max-width: auto;
+    background-color: $accent-color;
+    border: 1px solid black;
+    grid-template-columns: 300px auto;
+    width: auto;
+
+}
+
+.landingpage div {
+    padding: 2em;
+}
+
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+    border: 1px solid black;
+    background-color: $background-alternative-color;
+}
+
+.landingpage h3 {
+    justify-self: top;
+}
+
+.short_left {
+    
+    grid-column: 1 / span 1;
+    border: 1px solid black;
+    background-color: $background-alternative-color;
+    
+}
+
+.short_right {
+    
+    grid-column: 3 / span 1;
+    border: 1px solid black;
+    background-color: $background-alternative-color;
+}
+
+.wide_right {
+    
+    grid-column: 2 / span 2;
+    border: 1px solid black;
+    background-color: $background-alternative-color;
+}
+
+.wide_left {
+    
+    grid-column: 1 / span 2;
+    border: 1px solid black;
+    background-color: $background-alternative-color;
+}
+
+.wide {
+    grid-column: span 3;
+    border: 1px solid black;
+    background-color: $background-alternative-color;
+}
+
+.expl {
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+.sidebar div {
+
+    float: left;
+    grid-column: 1 / span 1;
+    width: 100px;
+    
+}
+
+.text div {
+    
+    grid-column: 2 / span 2; 
+    border: 1px solid black;
+}
+
+
+@media screen and (max-width: 960px) {
+    .landingpage {
+        max-width: 50%; 
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .main {
+        padding: 0;
+        max-width: 50%;
+    }
+
+    .short_left, .short_right, .wide_right, .wide_left, .wide {
+        column-width: 50%;
+        grid-column: 1;
+        
+    }
+    .sidebar {
+        display: none;
+    }
+
+}
