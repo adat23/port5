@@ -59,6 +59,41 @@ head {
     background-color: $accent-color;
 }
 
+img, embed, object, video {
+    max-width: 100%;
+}
+
+img:not([alt]) {
+    outline: 4px red dashed !important;
+}
+
+.gallery {
+    display: grid;
+    max-width: auto;
+    /* background-color: $accent-color;*/
+    grid-template-columns: 180px 180px 180px;
+    /*width: auto;*/
+
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .nav {
     background-color: $accent-color;
 }

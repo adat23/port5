@@ -11,24 +11,24 @@ Uppgiften i stort är att jag ska kolla ett par hemsidor och undersöka deras f�
 Urval
 -----------------------
 
-Jag har valt att analysera hemsidorna <a href="https://ubuntu.com">Ubuntu.com</a>, <a href="https://aftonbladet.se">Aftonbladet.se</a>, <a href="https://telia.se">Telia.se</a> och <a href="https://netonnet.se">Netonnet.se</a> för att se hur deras färgval är, jag har inte lagt speciellt mycket tid eller så mycket fundering innan jag valde mina hemsidor utan ville snarare plocka dom fyra hemsidor som jag först kom att tänka på.<br><br>
+Jag har valt att analysera hemsidorna <a href="https://ubuntu.com">Ubuntu.com</a>, <a href="https://aftonbladet.se">Aftonbladet.se</a>, <a href="https://telia.se">Telia.se</a> och <a href="https://netonnet.se">Netonnet.se</a> för att se hur deras färgval är. Jag har inte lagt speciellt mycket tid eller så mycket fundering innan jag valde mina hemsidor utan ville snarare plocka dom fyra hemsidor som jag först kom att tänka på för att hålla det lite objektivt.<br><br>
 
 Metod
 -----------------------
 
-Metoden som jag nyttjat är att jag gått in på vardera sida och knappat runt för att se om dom nyttjar samma färgval över hela hemsidan samt ifall dom har valmöjligheten för att byta till DarkMode(DM) eller om dom erbjuder andra valmöjligheter på färgval.  
-När jag varit nöjd med rundvandringen på hemsidorna så har jag inspekterat sidorna och försökt lokalisera färgkoderna och font-valet som dom gjort i CSS delen av hemsidan. När jag väl hittat färgkoden stoppade jag in dessa i Adobe Color för att se hur denna programvaran tycker att man ska nyttja färgkombinationerna. De gånger jag inte lyckats hitta exakt rätt i css-koden har jag även sparat ner hemsidans logga i bild och sedan nyttjat Photoshop för att se exakt vilken färg som dom valt att nyttja i loggan. <br><br>
+Metoden som jag nyttjat är att jag gått in på vardera sida och knappat runt för att se om dom nyttjar samma färgval över hela hemsidan samt ifall dom har valmöjligheten för att byta till DarkMode(DM) eller erbjuder andra valmöjligheter på färgval.  
+När jag varit nöjd med rundvandringen på hemsidorna så har jag inspekterat sidorna och försökt lokalisera färgkoderna och font-valet som dom gjort i CSS delen av hemsidan. När jag väl hittat färgkoden stoppade jag in dessa i Adobe-Color för att se hur denna programvaran tycker att man ska nyttja färgkombinationerna. De gånger jag inte lyckats hitta färgen från t.ex. loggan i css-koden har jag även sparat ner hemsidans logga och sedan nyttjat Photoshop för att se vilken färg dom valt att nyttja i loggan. <br><br>
 
 Resultat
 -----------------------
 
 Det jag kommer fram till i min studie är att alla fyra hemsidor har valt ett relativt enkelt färgschema som dom stått fast vid under många år, Ubuntu kör sitt orangea tema, Telia kör sitt lila, Aftonbladet gult/rött och Netonnet kör på blått/rött med svarta "highlights" men detta tror jag är snarare under black friday om jag minns rätt i hur deras hemsida normalt sett ser ut. 
-Alla fyra har i grunden en vit bakgrund medan enbart headern/navbar:en är där de nyttjar färgkombinationerna som är slående för deras stil. <br><br>
+Alla fyra har i grunden en vit bakgrund medan enbart headern/navbaren som de i stort nyttjar färgkombinationerna som är slående för deras stil. <br><br>
 
 ## Ubuntu
 
-<img class="foto" src="../../portfolio/assets/img/analys/ubuntu.png" alt="ubuntu" width=500>
-<img class="foto" src="../../portfolio/assets/img/analys/ubuntu-kvadrat.png" alt="ubuntu kvadrat" width=500>
+<img class="foto" src="../../portfolio/assets/img/analys/ubuntu.png" alt="ubuntu">
+<img class="foto" src="../../portfolio/assets/img/analys/ubuntu-kvadrat.png" alt="ubuntu kvadrat">
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #e95420">
@@ -42,8 +42,8 @@ Jag är personligen ett stort fan av Ubuntus färgval, jag gillar det orangea ti
 
 ## Aftonbladet
 
-<img class="foto" src="../../portfolio/assets/img/analys/aftonbladet.png" alt="aftonbladet" width=500>
-<img class="foto" src="../../portfolio/assets/img/analys/aftonbladet-dark.png" alt="aftonbladet darkmode" width=500>
+<img class="foto" src="../../portfolio/assets/img/analys/aftonbladet.png" alt="aftonbladet">
+<img class="foto" src="../../portfolio/assets/img/analys/aftonbladet-dark.png" alt="aftonbladet darkmode">
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #dd2a30">
@@ -54,13 +54,13 @@ Jag är personligen ett stort fan av Ubuntus färgval, jag gillar det orangea ti
 Aftonbladet har valt vit bakgrund med för det mesta svart text som känns relativt enkelt i färgvalen (tvärtom vid darkmode), dem har valt största möjliga skillnad mellan bakgrundsfärg och textfärg vilket gör det lättläsligt. Det kan man mycket väl tänka sig att det är det största fokus dom har haft när dom valde sina färger då det är en nyhetssida där personerna som kollar på hemsidan ska försöka läsa så mycket som möjligt. 
 Dom nyttjar en röd färg till och från för att poängtera vissa rubriker, men då oftast enbart t.ex. vilken stad nyheten är ifrån sedan är resten av texten svart (vit i DM). 
 Man kan tydligt se att dom har lite olika storlekar på olika rubriker, med största sannolikhet för att uppmärksamma vissa rubriker mer än andra beroende på nyhetsvärdet i artikeln, vad jag har kunnat hitta så står dom fast vid att nyttja font familjen " Helvetica Neue, Helvetica, Arial, sans-serif " över hela hemsidan. 
-Aftonbladets färgval tycker jag är lite tråkiga, det stämmer väl överens med deras stil och att dom varit trogna sin stil som dom haft redan sen innan det blev en hemsida. <br><br>
+Aftonbladets färgval tycker jag är lite tråkiga, det stämmer väl överens med deras stil och att dom varit trogna sin stil som dom haft redan sen innan det blev en hemsida utan papperstidning. Jag gillar dock att man har möjligheten att byte till Darkmode <br><br> 
 
 
 ## Telia
 
-<img class="foto" src="../../portfolio/assets/img/analys/telia.png" alt="telia" width=500>
-<img class="foto" src="../../portfolio/assets/img/analys/telia-mono.png" alt="telia mono" width=500>
+<img class="foto" src="../../portfolio/assets/img/analys/telia.png" alt="telia">
+<img class="foto" src="../../portfolio/assets/img/analys/telia-mono.png" alt="telia mono">
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #832AB0">
@@ -78,8 +78,8 @@ Likt Ubuntu verkar Telia ha tillverkat ett eget typsnitt på sin font "TeliaSans
 
 ## Netonnet
 
-<img class="foto" src="../../portfolio/assets/img/analys/non.png" alt="Netonnet" width=500>
-<img class="foto" src="../../portfolio/assets/img/analys/non-triad.png" alt="Netonnet-triad" width=500>
+<img class="foto" src="../../portfolio/assets/img/analys/non.png" alt="Netonnet">
+<img class="foto" src="../../portfolio/assets/img/analys/non-triad.png" alt="Netonnet-triad">
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #0698D6">
@@ -87,7 +87,7 @@ Likt Ubuntu verkar Telia ha tillverkat ett eget typsnitt på sin font "TeliaSans
 <td style="height: 50px; width: 50px; background-color: #ed1c24">
 </tr>
 </table>
-<img class="foto" src="../../portfolio/assets/img/analys/netonnet.svg" alt="Netonnet logga" width=500>
+<img class="foto" src="../../portfolio/assets/img/analys/netonnet.svg" alt="Netonnet logga">
 Netonnet var den som jag tyckte var svårast att analysera, mycket på grund av att dom har väldigt få färgval på deras hemsida, men man fick även gå väldigt långt in i CSS-strukturen för att lyckas lokalisera där dom valt att byta färg på t.ex. prispresentationen då det var rea på produkten. 
 I tabellen ovan så är den första blå färgen tagen från deras hemsida med den blå färgen dom har i sin logga samt scrollisten och lite andra mindre detaljer på hemsidan, den röda färgen efter den är det som Adobe-color föreslår att man ska nyttja som färgval i triad, den tredje är den röda färgen som Netonnet har i sin logga, vilket jag tycker är väldigt likt triad-valet som adobe presenterar. Den röda färg dom har i loggan är för övrigt exakt samma färgval som dom gjort på sina röda prissättningar för att markera nedsatt pris, ett val som jag inte tror är en tillfällighet. 
 Netonnet har valt font familjen "Open Sans,sans-serif" på de ställen jag sett, sen nyttjar dom väldigt mycket bilder för att visualisera erbjudanden och liknande så kan inte se vilken font dom valt här, dock verkar det vara Open sans på all text. 

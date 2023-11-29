@@ -105,4 +105,14 @@
         display: none;
     }
 
+    .gallery {
+        max-width: 50%; 
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .images {
+        column-width: 50%;
+        grid-column: 1;
+    }
+
 }

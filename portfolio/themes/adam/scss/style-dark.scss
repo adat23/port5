@@ -77,7 +77,19 @@ head {
     background-color: $accent-dark;
 }
 
+img, embed, object, video {
+    max-width: 100%;
+}
 
+img:not([alt]) {
+    outline: 4px red dashed !important;
+}
+
+.gallery {
+    display: grid;
+    max-width: auto;
+    grid-template-columns: 180px 180px 180px;
+}
 
 .parent {
     display: flex;
