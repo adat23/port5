@@ -70,10 +70,11 @@ img:not([alt]) {
 .gallery {
     display: grid;
     max-width: auto;
-    /* background-color: $accent-color;*/
     grid-template-columns: 180px 180px 180px;
-    /*width: auto;*/
+}
 
+.site-header {
+    display: inline;
 }
 
 .embed-container {
