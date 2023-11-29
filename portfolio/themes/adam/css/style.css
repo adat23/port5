@@ -427,7 +427,7 @@ pre code {
   }
   .main {
     padding: 0;
-    max-width: 50%;
+    max-width: 30%;
   }
   .short_left, .short_right, .wide_right, .wide_left, .wide {
     column-width: 50%;
@@ -436,12 +436,19 @@ pre code {
   .sidebar {
     display: none;
   }
+  .header {
+    max-width: 30%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .nav {
+    max-width: 30%;
+  }
   .gallery {
-    max-width: 50%;
+    max-width: 30%;
     grid-template-columns: repeat(1, 1fr);
   }
   .images {
-    column-width: 50%;
+    column-width: 30%;
     grid-column: 1;
   }
 }
@@ -6612,7 +6619,7 @@ img:not([alt]) {
   grid-template-columns: 180px 180px 180px;
 }
 
-.site-header {
+.header {
   display: inline;
 }
 
