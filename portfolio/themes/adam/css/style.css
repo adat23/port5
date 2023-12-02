@@ -6597,6 +6597,18 @@ body {
   color: #270007;
 }
 
+.site-header {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #AA7D39;
+  align-items: center;
+}
+
 h1, h2, h4, h5, h6 {
   font-family: "Agbalumo", Agbalumo;
   font-size: large;
@@ -6642,10 +6654,6 @@ img:not([alt]) {
 .excel {
   width: 100%;
   height: 650px;
-}
-
-.header {
-  display: inline;
 }
 
 .nav {

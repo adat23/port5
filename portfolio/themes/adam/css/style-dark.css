@@ -6602,6 +6602,18 @@ body {
   color: #000000;
 }
 
+.site-header {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #DB2621;
+  align-items: center;
+}
+
 h1, h2, h4, h5, h6 {
   font-family: "Agbalumo", Agbalumo;
   font-size: large;

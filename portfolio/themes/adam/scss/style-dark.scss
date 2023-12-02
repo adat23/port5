@@ -34,6 +34,18 @@ body {
     color: $font-dark;
 }
 
+.site-header {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $accent-dark;
+    align-items: center;
+}
+
 h1, h2, h4, h5, h6 {
     font-family: 'Agbalumo', Agbalumo;
     font-size: large;
