@@ -19,16 +19,13 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 body {
     background-color: $background-color;
-    width: 900px;
+    width: 1080px;
     padding-left: 20%;
-
 }
 
 * {
     font-family: 'Roboto' sans-serif;
-    color: $font-color;
-
-    
+    color: $font-color;   
 }
 
 h1, h2, h4, h5, h6 {
@@ -73,26 +70,13 @@ img:not([alt]) {
     grid-template-columns: 180px 180px 180px;
 }
 
+.excel {
+    width: 100%;
+    height: 650px;
+}
+
 .header {
     display: inline;
-}
-
-.embed-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-}
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
 
 .nav {

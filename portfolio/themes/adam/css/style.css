@@ -420,14 +420,34 @@ pre code {
   border: 1px solid black;
 }
 
+.ytube {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.ytube iframe,
+.ytube object,
+.ytube embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 @media screen and (max-width: 960px) {
   .landingpage {
     max-width: 50%;
     grid-template-columns: repeat(1, 1fr);
   }
   .main {
-    padding: 0;
     max-width: 30%;
+  }
+  body {
+    padding-left: 10%;
   }
   .short_left, .short_right, .wide_right, .wide_left, .wide {
     column-width: 50%;
@@ -6568,7 +6588,7 @@ readers do not read off random characters that represent icons */
 
 body {
   background-color: #257059;
-  width: 900px;
+  width: 1080px;
   padding-left: 20%;
 }
 
@@ -6619,26 +6639,13 @@ img:not([alt]) {
   grid-template-columns: 180px 180px 180px;
 }
 
+.excel {
+  width: 100%;
+  height: 650px;
+}
+
 .header {
   display: inline;
-}
-
-.embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-}
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 .nav {
