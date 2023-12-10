@@ -11,27 +11,57 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
-@import '../../shared/fontawesome/scss/regular';
 
+/*
+@import '../../shared/fontawesome/scss/regular';
+*/
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Open+Sans&family=Roboto&display=swap');
 
 
-.main {
-    width: auto;
-    background-color: $text-backg-dark;
-}
-
-body {
-    background-color: $background-dark;
-    width: 1080px;
-    padding-left: 20%;
-}
-
 * {
     font-family: 'Roboto' sans-serif;
     color: $font-dark;
+}
+
+.main {
+    width: auto;
+    background-color: rgb($text-backg-dark, 0.6);
+    padding: 5%;
+}
+
+.nav {
+    background-color: $accent-dark;
+    
+}
+
+.header h1, h2, h3, h4, h5, h6{
+    color: $font-alternative-dark;
+}
+
+.nav a .nav-toggle {
+    color: $font-dark;
+}
+
+.nav .active a {
+    color: $accent-color;
+}
+/*
+div .nav a {
+    color: $font-dark;
+}
+*/
+body {
+    width: 1500px;
+    padding-left: 20%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: $background-dark;
+}
+
+.main a{
+    color: $link-dark;
 }
 
 .site-header {
@@ -44,16 +74,36 @@ body {
     justify-content: space-between;
     background-color: $accent-dark;
     align-items: center;
+    color: $font-alternative-dark;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $font-dark;
+    padding-left: 20%;
+    font-size: large;
+    color: $font-alternative-dark;
+}
+
+.footer a{
+    text-decoration: none;
 }
 
 h1, h2, h4, h5, h6 {
     font-family: 'Agbalumo', Agbalumo;
     font-size: large;
+    color: $font-dark;
 }
 
 h3 {
     font-family: 'Agbalumo', Agbalumo;
     font-size: small;
+    color: $font-dark;
 }
 
 * {
@@ -65,16 +115,6 @@ html,
 body {
     height: 100vh;
     
-}
-
-.nav {
-    background-color: $accent-dark;
-}
-
-
-
-li {
-    color: $font-dark;
 }
 
 link {
@@ -101,8 +141,18 @@ img:not([alt]) {
 .gallery {
     display: grid;
     max-width: auto;
-    grid-template-columns: 180px 180px 180px;
+    grid-template-columns: 200px 300px 200px;
+    gap: 2px;
+    align-content:inherit;
 }
+
+.gallery2 {
+    display: grid;
+    max-width: auto;
+    grid-template-columns: 200px 100px 300px;
+    gap: 2px;
+}
+
 
 .excel {
     width: 100%;

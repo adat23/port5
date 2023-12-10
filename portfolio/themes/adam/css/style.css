@@ -310,6 +310,21 @@ template {
 }
 
 /* darkmode */
+/*
+$font-dark: #000000;
+$font-alternative-dark: #754241;
+$accent-dark: #6B9777;
+$background-dark: #423232; 
+$background-alternative-dark: #324237;
+$text-backg-dark: #C26969;
+
+$font-dark: #000000;
+$font-alternative-dark: #754241;
+$accent-dark: #DB2621;
+$background-dark: #423232; 
+$background-alternative-dark: #332C2B;
+$text-backg-dark: #756363;
+*/
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -350,13 +365,23 @@ pre code {
   box-sizing: border-box;
 }
 
+.logo {
+  background-color: none;
+  max-width: 50px;
+  max-height: 50px;
+}
+
 .landingpage {
   display: grid;
   max-width: auto;
-  background-color: #AA7D39;
+  background-color: #FC8C79;
   border: 1px solid black;
   grid-template-columns: 300px auto;
   width: auto;
+}
+
+.landingpage a {
+  color: #e0e0e0;
 }
 
 .landingpage div {
@@ -366,42 +391,41 @@ pre code {
 .landingpage h1 {
   grid-column: span 3;
   justify-self: center;
-  border: 1px solid black;
-  background-color: #00412D;
 }
 
-.landingpage h3 {
+.landingpage h2 {
   justify-self: top;
+  color: #e0e0e0;
 }
 
 .short_left {
   grid-column: 1/span 1;
   border: 1px solid black;
-  background-color: #00412D;
+  background-color: #252525;
 }
 
 .short_right {
   grid-column: 3/span 1;
   border: 1px solid black;
-  background-color: #00412D;
+  background-color: #252525;
 }
 
 .wide_right {
   grid-column: 2/span 2;
   border: 1px solid black;
-  background-color: #00412D;
+  background-color: #252525;
 }
 
 .wide_left {
   grid-column: 1/span 2;
   border: 1px solid black;
-  background-color: #00412D;
+  background-color: #252525;
 }
 
 .wide {
   grid-column: span 3;
   border: 1px solid black;
-  background-color: #00412D;
+  background-color: #252525;
 }
 
 .expl {
@@ -6587,14 +6611,19 @@ readers do not read off random characters that represent icons */
 }
 
 body {
-  background-color: #257059;
-  width: 1080px;
+  /*background-color: $background-color;*/
+  width: 1500px;
   padding-left: 20%;
+  /*background: linear-gradient(160deg, $background-color 0%, $background-color 50%, $background-alternative-color 50%, $background-alternative-color 100%);*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*background-color: $background-alternative-color;*/
+  background-image: linear-gradient(120deg, #d4fc79 0%, #79FC88 100%);
 }
 
 * {
   font-family: "Roboto" sans-serif;
-  color: #270007;
+  /*color: $font-color;   */
 }
 
 .site-header {
@@ -6605,8 +6634,34 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: #AA7D39;
+  background-color: #4347D2;
   align-items: center;
+}
+
+.header a {
+  text-decoration: none;
+  color: #F4FFDC;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #270007;
+  padding-left: 20%;
+  font-size: large;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #121212;
+}
+
+.nav a {
+  color: #F4FFDC;
+}
+
+.nav a .nav-toggle {
+  color: #F4FFDC;
 }
 
 h1, h2, h4, h5, h6 {
@@ -6634,7 +6689,7 @@ a {
 }
 
 head {
-  background-color: #AA7D39;
+  background-color: #FC8C79;
 }
 
 img, embed, object, video {
@@ -6648,7 +6703,16 @@ img:not([alt]) {
 .gallery {
   display: grid;
   max-width: auto;
-  grid-template-columns: 180px 180px 180px;
+  grid-template-columns: 200px 300px 200px;
+  gap: 2px;
+  align-content: inherit;
+}
+
+.gallery2 {
+  display: grid;
+  max-width: auto;
+  grid-template-columns: 200px 100px 300px;
+  gap: 2px;
 }
 
 .excel {
@@ -6656,13 +6720,10 @@ img:not([alt]) {
   height: 650px;
 }
 
-.nav {
-  background-color: #AA7D39;
-}
-
 .main {
   width: auto;
-  background-color: #FFEAAF;
+  background-color: rgba(121, 167, 252, 0.6);
+  padding: 5%;
 }
 
 .parent {

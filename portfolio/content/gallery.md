@@ -32,6 +32,8 @@ Galleri
     </picture>
 </a>
 </div>
+</div>
+<div class="gallery2">
 <div class="images">
 <a href="%base_url%/image/gallery/brygga.jpg" target="_blank">
     <picture>
@@ -57,5 +59,5 @@ Galleri
 </div>
 
 <div class="ytube">
-    <iframe src="https://www.youtube.com/embed/EO9pBUu7N7g?si=Q5jmyBAoCRkpoAda" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/EO9pBUu7N7g?si=Q5jmyBAoCRkpoAda" frameborder="0" allowfullscreen title="youtube"></iframe>
 </div>

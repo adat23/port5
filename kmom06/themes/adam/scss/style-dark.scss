@@ -1,0 +1,135 @@
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'blockquote';
+@import 'code';
+@import 'technology';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+
+$fa-font-path: '../../shared/fontawesome/webfonts';
+
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Open+Sans&family=Roboto&display=swap');
+
+
+.main {
+    width: auto;
+    background-color: $text-backg-dark;
+}
+
+body {
+    background-color: $background-dark;
+    width: 1080px;
+    padding-left: 20%;
+}
+
+* {
+    font-family: 'Roboto' sans-serif;
+    color: $font-dark;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $accent-dark;
+    align-items: center;
+}
+
+h1, h2, h4, h5, h6 {
+    font-family: 'Agbalumo', Agbalumo;
+    font-size: large;
+}
+
+h3 {
+    font-family: 'Agbalumo', Agbalumo;
+    font-size: small;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100vh;
+    
+}
+
+.nav {
+    background-color: $accent-dark;
+}
+
+
+
+li {
+    color: $font-dark;
+}
+
+link {
+    color: $font-dark;
+}
+
+a {
+    color: $font-dark;
+}
+
+head {
+    background-color: $accent-dark;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+img:not([alt]) {
+    outline: 4px red dashed !important;
+}
+
+
+.gallery {
+    display: grid;
+    max-width: auto;
+    grid-template-columns: 180px 180px 180px;
+}
+
+.excel {
+    width: 100%;
+    height: 650px;
+}
+
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    .child {
+        width: 80%;
+        padding: $magic-number;
+        margin: calc($magic-number / 2);
+        background-color: $amazing-color;
+    }
+
+    .child:first-child {
+        margin-top: 0;
+    }
+
+    .child:last-child {
+        margin-bottom: 0;
+    }
+}
+

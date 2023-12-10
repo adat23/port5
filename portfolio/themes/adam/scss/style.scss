@@ -18,14 +18,21 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 
 body {
-    background-color: $background-color;
-    width: 1080px;
+    /*background-color: $background-color;*/
+    width: 1500px;
     padding-left: 20%;
+    /*background: linear-gradient(160deg, $background-color 0%, $background-color 50%, $background-alternative-color 50%, $background-alternative-color 100%);*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-color: $background-alternative-color;*/
+
+
+    background-image: linear-gradient(120deg, $background-color 0%, $background-alternative-color 100%);
 }
 
 * {
     font-family: 'Roboto' sans-serif;
-    color: $font-color;   
+    /*color: $font-color;   */
 }
 
 .site-header {
@@ -36,8 +43,35 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: $accent-color;
+    background-color: $header-background;
     align-items: center;
+}
+
+.header a {
+    text-decoration: none;
+    color: $link-color;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $font-color;
+    padding-left: 20%;
+    font-size: large;
+}
+
+.footer a{
+    text-decoration: none;
+    color: $background-dark;
+}
+
+.nav a {
+    color: $link-color;
+}
+
+.nav a .nav-toggle {
+    color: $link-color;
 }
 
 h1, h2, h4, h5, h6 {
@@ -79,21 +113,29 @@ img:not([alt]) {
 .gallery {
     display: grid;
     max-width: auto;
-    grid-template-columns: 180px 180px 180px;
+    grid-template-columns: 200px 300px 200px;
+    gap: 2px;
+    align-content:inherit;
 }
+
+.gallery2 {
+    display: grid;
+    max-width: auto;
+    grid-template-columns: 200px 100px 300px;
+    gap: 2px;
+}
+
 
 .excel {
     width: 100%;
     height: 650px;
 }
 
-.nav {
-    background-color: $accent-color;
-}
 
 .main {
     width: auto;
-    background-color: $text-background;
+    background-color: rgb($text-background, 0.6);
+    padding: 5%;
 }
 
 .parent {

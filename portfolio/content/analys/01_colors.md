@@ -11,7 +11,7 @@ Uppgiften i stort är att jag ska kolla ett par hemsidor och undersöka deras f�
 Urval
 -----------------------
 
-Jag har valt att analysera hemsidorna <a href="https://ubuntu.com">Ubuntu.com</a>, <a href="https://aftonbladet.se">Aftonbladet.se</a>, <a href="https://telia.se">Telia.se</a> och <a href="https://netonnet.se">Netonnet.se</a> för att se hur deras färgval är. Jag har inte lagt speciellt mycket tid eller så mycket fundering innan jag valde mina hemsidor utan ville snarare plocka dom fyra hemsidor som jag först kom att tänka på för att hålla det lite objektivt.<br><br>
+Jag har valt att analysera hemsidorna <a href="https://ubuntu.com" aria-label="ubuntu ">Ubuntu</a>, <a href="https://aftonbladet.se" aria-label="aftonbladet ">Aftonbladet</a>, <a href="https://telia.se" aria-label="telia ">Telia</a> och <a href="https://netonnet.se" aria-label="netonnet ">Netonnet</a> för att se hur deras färgval är. Jag har inte lagt speciellt mycket tid eller så mycket fundering innan jag valde mina hemsidor utan ville snarare plocka dom fyra hemsidor som jag först kom att tänka på för att hålla det lite objektivt.<br><br>
 
 Metod
 -----------------------
@@ -106,11 +106,11 @@ Det jag kan se från dessa fyra hemsidor är att det i många fall finns en väl
 Referenser
 -----------------------
 
-<a href="https://ubuntu.com">Ubuntu.com</a><br>
-<a href="https://aftonbladet.se">Aftonbladet.se</a><br>
-<a href="https://telia.se">Telia.se</a><br>
-<a href="https://netonnet.se">Netonnet.se</a><br>
-<a href="https://color.adobe.com/sv/create/color-wheel">Adobe Color</a><br><br>
+<a href="https://ubuntu.com" aria-label="ubuntu ">Ubuntu</a><br>
+<a href="https://aftonbladet.se" aria-label="aftonbladet ">Aftonbladet</a><br>
+<a href="https://telia.se" aria-label="telia ">Telia</a><br>
+<a href="https://netonnet.se" aria-label="netonnet ">Netonnet</a><br>
+<a href="https://color.adobe.com/sv/create/color-wheel" aria-label="adobe color " >Adobe Color</a><br><br>
 
 
 Övrigt
