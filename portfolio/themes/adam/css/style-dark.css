@@ -462,17 +462,44 @@ pre code {
   height: 100%;
 }
 
+.mobel {
+  display: grid;
+  max-width: auto;
+  grid-template-columns: 250px 250px 250px 250px;
+  gap: 2px;
+  align-content: inherit;
+}
+
+.mobel a {
+  text-decoration: none;
+}
+
+.artist {
+  display: grid;
+  max-width: auto;
+  grid-template-columns: 600px;
+  gap: 2px;
+  align-content: inherit;
+}
+
 @media screen and (max-width: 960px) {
+  body {
+    max-width: 100%;
+    padding-left: 0;
+    margin: 0;
+  }
   .landingpage {
     max-width: 50%;
     grid-template-columns: repeat(1, 1fr);
   }
-  .main {
-    max-width: 30%;
+  .mobel {
+    grid-template-columns: repeat(1, 1fr);
   }
-  body {
-    padding-left: 10%;
-  }
+  /*
+      .main {
+          max-width: 30%;
+      }
+  */
   .short_left, .short_right, .wide_right, .wide_left, .wide {
     column-width: 50%;
     grid-column: 1;
@@ -481,14 +508,16 @@ pre code {
     display: none;
   }
   .header {
-    max-width: 30%;
+    /*        max-width: 30%; */
     grid-template-columns: repeat(1, 1fr);
   }
-  .nav {
-    max-width: 30%;
-  }
+  /*
+      .nav {
+          max-width: 30%;
+      }
+  */
   .gallery {
-    max-width: 30%;
+    /*max-width: 30%; */
     grid-template-columns: repeat(1, 1fr);
   }
   .images {
@@ -6630,7 +6659,7 @@ div .nav a {
 */
 body {
   width: 1500px;
-  padding-left: 20%;
+  padding-left: 10%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: #121212;
@@ -6697,7 +6726,7 @@ link {
 }
 
 a {
-  color: #e0e0e0;
+  color: #C9C8C8;
 }
 
 head {

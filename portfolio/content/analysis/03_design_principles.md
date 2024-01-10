@@ -120,7 +120,7 @@ Det finns definitivt saker jag skulle vilja göra annorlunda, jag skulle jätteg
 Designprinciperna som jag nyttjat primärt är kontrast, färg och även testat på lite med skala på gallerisidan för att highlighta de bilder jag tycker bäst om där. 
 Kontrast är framförallt dark mode sidan som håller väldigt hög kontrast mellan bakgrund och text med vissa små färgelement. Färg är framförallt på lightside sidan som har stor variation i färgvalen men som jag tycker kompletterar varandra väl. 
 
-Något jag definitivt skulle vilja nyttja mer och som jag tyckte var väldigt snyggt är vad som ser ut som bilder i bakgrunden som många större tillverkare nyttjar som bläddrar med när man scrollar bilden, även ett exempel som jag tyckte mycket om var exemplet från <a href="https://www.canva.com/learn/design-elements-principles/" target="_blank" aria-label="canva desig">Canva Design</a> där man visade designelementet lines. 
+Något jag definitivt skulle vilja nyttja mer och som jag tyckte var väldigt snyggt är vad som ser ut som bilder i bakgrunden som många större tillverkare nyttjar som bläddrar med när man scrollar bilden, även ett exempel som jag tyckte mycket om var exemplet från <a href="https://www.canva.com/learn/design-elements-principles/" target="_blank" aria-label="Canva Design ">Canva Design</a> där man visade designelementet lines. 
 <a href="%base_url%/image/design/lines.png" target="_blank" aria-label="lines">
     <picture>
         <source media="(min-width: 101px)" srcset="%base_url%/image/design/lines.png">
